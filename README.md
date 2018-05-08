@@ -1,9 +1,9 @@
-### FRET README
+# FRET README
 
 ## Setup
 
-# Run npm run dev
+#### Run npm run dev
 
 ## Testing
 
-# Run yarn test
+### Run yarn test
