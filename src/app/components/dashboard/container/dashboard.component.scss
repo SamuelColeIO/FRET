@@ -1,0 +1,20 @@
+.fret-dashboard {
+  width: 90%;
+  margin: 50px auto;
+  &__create-button {
+    margin-bottom: 20px;
+    float: right;
+  }
+  &__table {
+    min-height: 0px !important;
+    box-sizing: border-box;
+  }
+  &__small-button {
+    padding: 10px 28px 10px 28px;
+  }
+  &__error {
+    text-align: center;
+    color: red;
+    padding-bottom: 10px;
+  }
+}

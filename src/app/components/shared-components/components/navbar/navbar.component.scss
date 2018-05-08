@@ -1,0 +1,25 @@
+@import './../../../../scss/_variables.scss';
+
+.fret-navbar {
+  &__title-container {
+    width: 100%;
+    @media only screen and (min-width: $desktop) {
+      width: 280px;
+    }
+  }
+  &__title {
+    width: 220px;
+    display: block;
+    color: #FFFFFF !important;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  &__menu {
+    float: right;
+  }
+  &__helper {
+    height: 70px;
+  }
+}

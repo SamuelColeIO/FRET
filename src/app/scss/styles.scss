@@ -1,0 +1,21 @@
+@import '../components/report/container/report.component.scss';
+@import '../components/dashboard/container/dashboard.component.scss';
+@import '../components/integrations/container/integrations.component.scss';
+@import '../components/login/container/login.component.scss';
+@import '../components/login/container/login.component.scss';
+@import '../components/shared-components/components/loader/loader.component.scss';
+@import '../components/shared-components/components/navbar/navbar.component.scss';
+@import '../components/form-test/container/form-test.component.scss';
+
+body{
+    background-color: #f2f3f8;
+  }
+
+//clearfix
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: left;
+ }

@@ -1,0 +1,133 @@
+.fret-report {
+  &__card {
+    width: 90%;
+    margin: 20px auto;
+  }
+  &__categories {
+    width: 200px;
+    padding: 10px;
+    float:left;
+    & span {
+      margin-bottom: 10px;
+      display: block;
+      cursor: pointer;
+    }
+  }
+  &__criteria {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    float:left;
+    overflow-y: scroll;
+    &-categories {
+      margin-bottom: 5px;
+      display: block;
+      font-size: 11px;
+      font-weight: 400;
+      color: #060606;
+    }
+    &-criteria {
+      margin-left: 5px;
+      font-size: 13px;
+    }
+    &::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+    }
+    
+    &::-webkit-scrollbar
+    {
+      width: 10px;
+      background-color: #F5F5F5;
+    }
+    
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #9816f4;
+      border: 2px solid #9816f4;
+    }
+  }
+  &__chosen-criteria {
+    height: 300px;
+    width: 0px;
+    padding: 10px;
+    float:left;
+  }
+  &__name {
+    height: 300px;
+    width: 265px;
+    padding: 10px;
+    float:left; 
+    & input {
+      margin-bottom: 10px;
+    }
+    & span {
+      margin-left: 1px;
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+  }
+  &__information {
+    span {
+      margin-left: 1px;
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+    & input {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    & select {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+  }
+  &__output {
+    label {
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+    span {
+      margin-left: 1px;
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+    & input {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    & select {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+  }
+  &__picker-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  &__template-error {
+    margin-top: 10px;
+    color: red;
+  }
+  &__error {
+    text-align: center;
+    color: red;
+  }
+  &__submit-errors {
+    padding-top: 2px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: red;
+  }
+  &__form-error {
+    margin-bottom: 10px;
+    color: red;
+  }
+  &__asterix {
+    display: inline-block;
+    color: purple;
+  }
+}

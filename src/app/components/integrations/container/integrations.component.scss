@@ -1,0 +1,55 @@
+@import './../../../scss/_variables.scss';
+
+.fret-integrations {
+  width: 90%;
+  margin: 20px auto;
+  &__card {
+    padding-bottom: 20px;
+  }
+  &__social-button--facebook {
+    width: 320px;
+    margin: 0px auto 40px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    & i {
+      margin-left: 5px;
+      width: 50px !important;
+    }
+    & i::before {
+      vertical-align: sub;
+    }
+  }
+  &__social-button--drive {
+    width: 320px;
+    margin: 0px auto 40px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    & i {
+      margin-left: 5px;
+      width: 60px !important;
+    }
+    & i::before {
+      vertical-align: sub;
+    }
+  }
+  & a:not([href]):not([tabindex]) {
+    color: white;
+  }
+  &__error {
+    text-align: center;
+    color: red;
+  }
+  &__continue-button {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    float: right;
+  }
+  button:disabled,
+  button[disabled] {
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
+  color: #666666;
+  }
+}
