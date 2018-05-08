@@ -81,7 +81,7 @@ export class LoginComponent {
     }
   }
 
-  login = function () {
+  login = () => {
     this.loading = true;
     this.error = null;
     this.LoginService.submitLogin(this.model.email, this.model.password)

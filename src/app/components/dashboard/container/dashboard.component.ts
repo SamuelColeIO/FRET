@@ -116,7 +116,7 @@ export class DashboardComponent {
       .subscribe(data => {
         this.toggleLoader = false;
         this.reportInfo = data.data;
-        this.reportInfo.forEach(function (item) {
+        this.reportInfo.forEach((item) => {
           item.createdAt = moment(item.createdAt).format('MM/DD/YY');
         })
       },
